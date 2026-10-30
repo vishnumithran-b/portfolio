@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishnu Mithran B — AI & Data Science Engineering Student</title>
+  <meta name="description" content="Personal portfolio of Vishnu Mithran B, Artificial Intelligence & Data Science engineering student. Exploring software development, machine learning, and interactive web experiences.">
+  <meta name="author" content="Vishnu Mithran B">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Vishnu Mithran B — Portfolio">
+  <meta property="og:description" content="I turn ideas into things you can experience. AI and Data Science engineering student portfolio.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23111111'/><circle cx='50' cy='50' r='18' fill='%23B5D96C'/></svg>">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Reading / Scroll Progress Bar -->
+  <div class="scroll-progress-container" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scroll-progress"></div>
+  </div>
+
+  <!-- Site Navigation -->
+  <header class="site-nav" role="banner">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Vishnu Mithran B Home">
+        <span>VISHNU MITHRAN</span>
+        <span class="brand-dot" aria-hidden="true"></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-drawer" role="navigation" aria-label="Mobile Navigation">
+    <a href="#hero" class="mobile-nav-link">Home</a>
+    <a href="#about" class="mobile-nav-link">About</a>
+    <a href="#skills" class="mobile-nav-link">Skills</a>
+    <a href="#projects" class="mobile-nav-link">Projects</a>
+    <a href="#certifications" class="mobile-nav-link">Certifications</a>
+    <a href="#resume" class="mobile-nav-link">Resume</a>
+    <a href="#contact" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <main id="main-content">
+    <!-- =====================================================================
+         HERO SECTION
+         ===================================================================== -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="id-status-dot" aria-hidden="true"></span>
+              <span>AI &amp; DATA SCIENCE ENGINEERING STUDENT</span>
+            </div>
+
+            <h1 class="hero-headline" id="hero-heading">
+              I TURN IDEAS INTO THINGS YOU CAN <span class="accent-highlight">EXPERIENCE.</span>
+            </h1>
+
+            <p class="hero-intro">
+              I’m an Artificial Intelligence and Data Science engineering student passionate about designing digital experiences, machine learning applications, and full-stack software that solves real academic and business challenges.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary" id="cta-explore">
+                EXPLORE MY WORK
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="cta-contact">
+                GET IN TOUCH
+              </a>
+            </div>
+          </div>
+
+          <!-- Realistic Physical Hanging ID Badge Assembly (Interactive Desktop Charm) -->
+          <div class="hero-card-container" id="hero-card-container">
+            
+            <!-- Dynamic Flexible Woven Rope (Curved SVG Canvas) -->
+            <svg class="badge-rope-svg" id="badge-rope-svg" aria-hidden="true">
+              <defs>
+                <!-- Exact Lime-Green Diagonal Weave Texture -->
+                <pattern id="lanyard-weave" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                  <rect width="10" height="10" fill="#B5D96C" />
+                  <line x1="0" y1="3" x2="10" y2="3" stroke="#9EC455" stroke-width="3" />
+                  <line x1="0" y1="8" x2="10" y2="8" stroke="#8DAE42" stroke-width="2" />
+                </pattern>
+                <filter id="rope-drop-shadow" x="-30%" y="-30%" width="160%" height="160%">
+                  <feDropShadow dx="0" dy="4" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.18" />
+                </filter>
+              </defs>
+              <!-- Drop Shadow Path -->
+              <path id="rope-path-shadow" class="rope-path-shadow" fill="none" stroke="rgba(0,0,0,0.18)" stroke-width="26" stroke-linecap="butt" />
+              <!-- Main Woven Strap Path -->
+              <path id="rope-path-main" class="rope-path-main" fill="none" stroke="url(#lanyard-weave)" stroke-width="24" stroke-linecap="butt" />
+              <!-- Left & Right Fabric Edge Stitches -->
+              <path id="rope-stitch-left" class="rope-stitch-line" fill="none" stroke="rgba(35, 52, 12, 0.42)" stroke-width="1.2" stroke-dasharray="3,3" />
+              <path id="rope-stitch-right" class="rope-stitch-line" fill="none" stroke="rgba(35, 52, 12, 0.42)" stroke-width="1.2" stroke-dasharray="3,3" />
+            </svg>
+
+            <!-- Draggable & Interactive Physical Hanging Badge Assembly -->
+            <div class="badge-rig-assembly badge-hanging-assembly" id="badge-rig-assembly" role="region" aria-label="Interactive ID Badge Charm">
+              
+              <!-- Metallic Loop Connector & Split Ring -->
+              <div class="badge-hardware-connector" id="badge-hardware-connector" aria-hidden="true">
+                <div class="hardware-crimp">
+                  <div class="crimp-seam"></div>
+                </div>
+                <div class="hardware-ring"></div>
+              </div>
+
+              <!-- Layered Cards Stack (Attached Clip + Backing Card + Main Card) -->
+              <div class="badge-cards-stack" id="badge-cards-stack">
+                
+                <!-- Physical Black Badge Clip (Hooks directly into the card slot) -->
+                <div class="badge-clip" aria-hidden="true">
+                  <div class="clip-swivel"></div>
+                  <div class="clip-body">
+                    <div class="clip-spring"></div>
+                  </div>
+                  <div class="clip-hook"></div>
+                </div>
+
+                <!-- Lime Green Backing Card (Strictly Layered Behind) -->
+                <div class="badge-backing-card" aria-hidden="true">
+                  <div class="backing-symbol">
+                    <svg width="110" height="110" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3">
+                      <rect x="15" y="15" width="70" height="70" rx="18" />
+                      <circle cx="50" cy="50" r="16" />
+                      <line x1="50" y1="15" x2="50" y2="34" />
+                      <line x1="50" y1="66" x2="50" y2="85" />
+                      <line x1="15" y1="50" x2="34" y2="50" />
+                      <line x1="66" y1="50" x2="85" y2="50" />
+                    </svg>
+                  </div>
+                  <div class="backing-corner-code">VI·STUDIO</div>
+                </div>
+
+                <!-- Main Matte Black ID Card -->
+                <div class="badge-main-card" id="profile-id-card">
+                  <div class="card-sheen" aria-hidden="true"></div>
+
+                  <!-- Punched Slot Hole for Clip Hook -->
+                  <div class="badge-slot-hole" aria-hidden="true">
+                    <div class="slot-cutout"></div>
+                  </div>
+
+                  <!-- Top Row: Portfolio Symbol + "PORTFOLIO" & "CREATIVE STUDIO" -->
+                  <div class="badge-header-row">
+                    <div class="badge-brand-group">
+                      <svg class="badge-brand-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                        <rect x="3" y="3" width="18" height="18" rx="5" />
+                        <circle cx="12" cy="12" r="4" fill="currentColor" />
+                      </svg>
+                      <span class="badge-brand-title">PORTFOLIO</span>
+                    </div>
+                    <span class="badge-studio-label">CREATIVE STUDIO</span>
+                  </div>
+
+                  <!-- Main Photograph (Showing head, shoulders, torso, and crossed arms down to hands/wrists) -->
+                  <div class="badge-photo-container">
+                    <img src="assets/profile.jpg" alt="Portrait of Vishnu Mithran B wearing a light blue blazer with arms crossed" class="badge-photo" width="719" height="1080">
+                  </div>
+
+                  <!-- Identity Block Below Photograph -->
+                  <div class="badge-identity-block">
+                    <h2 class="badge-name">Vishnu Mithran B</h2>
+                    <div class="badge-role">AI &amp; DATA SCIENCE ENGINEERING STUDENT</div>
+                  </div>
+
+                  <!-- Information Section with Vertical Divider -->
+                  <div class="badge-info-columns">
+                    <!-- Left Column: Location -->
+                    <div class="badge-col badge-col-left">
+                      <svg class="badge-col-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                      <span class="badge-col-text">Coimbatore, Tamil Nadu, India</span>
+                    </div>
+
+                    <!-- Vertical Divider -->
+                    <div class="badge-col-divider" aria-hidden="true"></div>
+
+                    <!-- Right Column: Fields -->
+                    <div class="badge-col badge-col-right">
+                      <span class="badge-col-label">FIELDS</span>
+                      <span class="badge-col-text">AI · Data Science · Development</span>
+                    </div>
+                  </div>
+
+                  <!-- Bottom Rounded Outline Pill -->
+                  <div class="badge-bottom-pill">
+                    <span>AI · DATA SCIENCE · DEVELOPMENT</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         ABOUT ME / PERSONAL JOURNEY
+         ===================================================================== -->
+    <section class="about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-editorial-layout scroll-reveal">
+          <div class="section-label">PERSONAL JOURNEY</div>
+          <h2 class="about-headline" id="about-heading">
+            EVERY VERSION OF ME GOT ME HERE.
+          </h2>
+
+          <div class="about-story">
+            <p class="story-paragraph scroll-reveal">
+              If you had asked me a while ago where I’d end up, I’m not sure I would’ve had a clear answer.
+            </p>
+
+            <p class="story-paragraph scroll-reveal">
+              I’m still figuring things out, honestly. Every new programming language, every project, and every challenge comes with something I don’t know yet. Sometimes I understand things quickly. Other times, I have to sit with the same problem for a while before it finally clicks.
+            </p>
+
+            <p class="story-paragraph scroll-reveal">
+              But I guess that’s what <mark class="accent-highlight">learning</mark> is all about.
+            </p>
+
+            <p class="story-paragraph scroll-reveal">
+              I’ve started to realize that <mark class="accent-highlight">growth</mark> doesn’t always look like a big achievement or some life-changing moment. Sometimes, it’s just understanding something that confused you yesterday. Sometimes, it’s getting a project to work after trying over and over again. And sometimes, it’s simply having the <mark class="accent-highlight">courage</mark> to start something new, even when you have no idea how it’ll turn out.
+            </p>
+
+            <p class="story-paragraph scroll-reveal">
+              Right now, I’m studying AI and Data Science, exploring software development, <mark class="accent-highlight">building projects</mark>, and slowly figuring out what I really want to do with all of it.
+            </p>
+
+            <p class="story-paragraph scroll-reveal">
+              I still have a lot to learn, and I haven’t figured out every part of my future. But I’m okay with that. I’m learning as I go, trying new things, making mistakes, and becoming a little better along the way.
+            </p>
+
+            <p class="story-paragraph scroll-reveal">
+              When I think about it, <mark class="accent-highlight">every version of me</mark> has played a part in getting me here. The curious one, the confused one, the one who doubted things, and the one who kept going anyway.
+            </p>
+
+            <p class="story-paragraph scroll-reveal" style="font-weight: 600; color: var(--text-primary);">
+              And I think that’s something worth being proud of.
+            </p>
+
+            <div class="story-quote-block scroll-reveal">
+              <blockquote class="story-quote-text">
+                “I’m not exactly where I want to be yet, but I’m not where I started either. And for now, that’s enough.”
+              </blockquote>
+              <div class="story-quote-author">— Vishnu Mithran B</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SKILLS CONSTELLATION
+         ===================================================================== -->
+    <section class="skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <div class="section-label">TECHNICAL FOUNDATION</div>
+          <h2 class="section-title" id="skills-heading">SKILLS CONSTELLATION</h2>
+          <p class="section-subtitle">
+            An interactive visualization featuring my three primary programming languages. Select any node to explore its application areas and engineering context.
+          </p>
+        </div>
+
+        <div class="constellation-wrapper scroll-reveal" data-delay="1">
+          <!-- Constellation Canvas -->
+          <div class="constellation-canvas-area" role="region" aria-label="Interactive Language Constellation">
+            <svg class="constellation-svg" viewBox="0 0 400 380" aria-hidden="true">
+              <!-- Connecting lines forming balanced triangle -->
+              <line x1="200" y1="85" x2="105" y2="285" class="constellation-line" data-connects="python java"></line>
+              <line x1="200" y1="85" x2="295" y2="285" class="constellation-line" data-connects="python cpp"></line>
+              <line x1="105" y1="285" x2="295" y2="285" class="constellation-line" data-connects="java cpp"></line>
+
+              <!-- Central connection lines -->
+              <line x1="200" y1="85" x2="200" y2="220" class="constellation-line" stroke-dasharray="2 3" opacity="0.4"></line>
+              <line x1="105" y1="285" x2="200" y2="220" class="constellation-line" stroke-dasharray="2 3" opacity="0.4"></line>
+              <line x1="295" y1="285" x2="200" y2="220" class="constellation-line" stroke-dasharray="2 3" opacity="0.4"></line>
+            </svg>
+
+            <!-- Center ambient hub -->
+            <div class="constellation-center-hub" aria-hidden="true">CORE</div>
+
+            <!-- Language Node 1: Python -->
+            <button class="constellation-node node-python active" data-lang="python" role="tab" aria-selected="true" aria-controls="skills-info-card" tabindex="0">
+              <span class="node-icon" aria-hidden="true">🐍</span>
+              <span class="node-label">Python</span>
+            </button>
+
+            <!-- Language Node 2: Java -->
+            <button class="constellation-node node-java" data-lang="java" role="tab" aria-selected="false" aria-controls="skills-info-card" tabindex="0">
+              <span class="node-icon" aria-hidden="true">☕</span>
+              <span class="node-label">Java</span>
+            </button>
+
+            <!-- Language Node 3: C++ -->
+            <button class="constellation-node node-cpp" data-lang="cpp" role="tab" aria-selected="false" aria-controls="skills-info-card" tabindex="0">
+              <span class="node-icon" aria-hidden="true">⚡</span>
+              <span class="node-label">C++</span>
+            </button>
+          </div>
+
+          <!-- Dynamic Info Panel -->
+          <div class="constellation-info-panel">
+            <div class="skills-info-card" id="skills-info-card" role="tabpanel" aria-live="polite">
+              <!-- Dynamically populated via JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SELECTED PROJECTS — CD ALBUM SHOWCASE
+         ===================================================================== -->
+    <section class="projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <div class="section-label">FEATURED DISCOGRAPHY</div>
+          <h2 class="section-title" id="projects-heading">SELECTED PROJECTS</h2>
+          <p class="section-subtitle">
+            Presented as physical music CD jewel cases. Hover to inspect the case and disc; click any album to slide open the comprehensive project dossier.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- CD Case 1: StudyEase AI -->
+          <div class="cd-jewel-case-wrapper scroll-reveal" data-delay="1" data-project="studyease-ai" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View project StudyEase AI">
+            <div class="cd-jewel-case">
+              <div class="cd-spine">
+                <span class="cd-spine-text">STUDYEASE AI // VOL. 01</span>
+              </div>
+              <div class="cd-disc"></div>
+              <div class="cd-plastic-casing"></div>
+
+              <div class="cd-cover-art cover-theme-studyease">
+                <div class="cover-studyease-graphic" aria-hidden="true"></div>
+                <div class="album-top-header">
+                  <span class="album-catalog-id">CAT #SE-01</span>
+                  <span class="album-badge-stamp">AI COGNITIVE</span>
+                </div>
+                <div class="album-center-title">
+                  <span class="album-genre">Cognitive Architecture</span>
+                  <div class="album-title-text">StudyEase AI</div>
+                </div>
+                <div class="album-bottom-footer">
+                  <div class="album-track-list">
+                    <span>TRK 1 · TAXONOMY</span>
+                    <span>TRK 2 · FLASHCARDS</span>
+                    <span>TRK 3 · QUIZZES</span>
+                  </div>
+                  <span style="font-size:0.625rem; font-family:var(--font-mono); opacity:0.6;">2026</span>
+                </div>
+              </div>
+            </div>
+            <div class="cd-interactive-hint">
+              <span>EXPLORE ALBUM</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- CD Case 2: OpenJudge AI -->
+          <div class="cd-jewel-case-wrapper scroll-reveal" data-delay="2" data-project="openjudge-ai" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View project OpenJudge AI">
+            <div class="cd-jewel-case">
+              <div class="cd-spine">
+                <span class="cd-spine-text">OPENJUDGE AI // EVAL</span>
+              </div>
+              <div class="cd-disc"></div>
+              <div class="cd-plastic-casing"></div>
+
+              <div class="cd-cover-art cover-theme-openjudge">
+                <div class="album-top-header">
+                  <span class="album-catalog-id">CAT #OJ-02</span>
+                  <span class="album-badge-stamp">VERIFIED SCORE</span>
+                </div>
+                <div class="album-center-title">
+                  <span class="album-genre">Hackathon Evaluation</span>
+                  <div class="album-title-text">OpenJudge AI</div>
+                </div>
+                <div class="album-bottom-footer">
+                  <div class="album-track-list">
+                    <span>TRK 1 · CRITERIA</span>
+                    <span>TRK 2 · LEADERBOARD</span>
+                  </div>
+                  <span style="font-size:0.625rem; font-family:var(--font-mono); opacity:0.6;">2026</span>
+                </div>
+              </div>
+            </div>
+            <div class="cd-interactive-hint">
+              <span>EXPLORE ALBUM</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- CD Case 3: AuraSlot -->
+          <div class="cd-jewel-case-wrapper scroll-reveal" data-delay="3" data-project="auraslot" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View project AuraSlot">
+            <div class="cd-jewel-case">
+              <div class="cd-spine">
+                <span class="cd-spine-text">AURASLOT // GLASSTECH</span>
+              </div>
+              <div class="cd-disc"></div>
+              <div class="cd-plastic-casing"></div>
+
+              <div class="cd-cover-art cover-theme-auraslot">
+                <div class="album-top-header">
+                  <span class="album-catalog-id">CAT #AS-03</span>
+                  <span class="album-badge-stamp">NEON NIGHT</span>
+                </div>
+                <div class="album-center-title">
+                  <span class="album-genre">Appointment Engine</span>
+                  <div class="album-title-text">AuraSlot</div>
+                </div>
+                <div class="album-bottom-footer">
+                  <div class="album-track-list">
+                    <span>TRK 1 · SLOTS</span>
+                    <span>TRK 2 · DASHBOARD</span>
+                  </div>
+                  <span style="font-size:0.625rem; font-family:var(--font-mono); opacity:0.6;">2026</span>
+                </div>
+              </div>
+            </div>
+            <div class="cd-interactive-hint">
+              <span>EXPLORE ALBUM</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- CD Case 4: Internship-FINDER -->
+          <div class="cd-jewel-case-wrapper scroll-reveal" data-delay="4" data-project="internship-finder" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View project Internship-FINDER">
+            <div class="cd-jewel-case">
+              <div class="cd-spine">
+                <span class="cd-spine-text">GLOBAL INTERNSHIP // ATLAS</span>
+              </div>
+              <div class="cd-disc"></div>
+              <div class="cd-plastic-casing"></div>
+
+              <div class="cd-cover-art cover-theme-internship">
+                <div class="album-top-header">
+                  <span class="album-catalog-id">CAT #IF-04</span>
+                  <span class="album-badge-stamp">WORLDWIDE</span>
+                </div>
+                <div class="album-center-title">
+                  <span class="album-genre">Career Discovery</span>
+                  <div class="album-title-text">Internship FINDER</div>
+                </div>
+                <div class="album-bottom-footer">
+                  <div class="album-track-list">
+                    <span>TRK 1 · ATLAS</span>
+                    <span>TRK 2 · ELIGIBILITY</span>
+                  </div>
+                  <span style="font-size:0.625rem; font-family:var(--font-mono); opacity:0.6;">2026</span>
+                </div>
+              </div>
+            </div>
+            <div class="cd-interactive-hint">
+              <span>EXPLORE ALBUM</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- CD Case 5: Interest-Explorer -->
+          <div class="cd-jewel-case-wrapper" data-project="interest-explorer" tabindex="0" role="button" aria-haspopup="dialog" aria-label="View project Interest-Explorer">
+            <div class="cd-jewel-case">
+              <div class="cd-spine">
+                <span class="cd-spine-text">INTEREST EXPLORER // EXP</span>
+              </div>
+              <div class="cd-disc"></div>
+              <div class="cd-plastic-casing"></div>
+
+              <div class="cd-cover-art cover-theme-interest">
+                <div class="album-top-header">
+                  <span class="album-catalog-id">CAT #IE-05</span>
+                  <span class="album-badge-stamp">COMPOUND MATH</span>
+                </div>
+                <div class="album-center-title">
+                  <span class="album-genre">Financial Modeling</span>
+                  <div class="album-title-text">Interest Explorer</div>
+                </div>
+                <div class="album-bottom-footer">
+                  <div class="album-track-list">
+                    <span>TRK 1 · SLIDERS</span>
+                    <span>TRK 2 · GROWTH CURVE</span>
+                  </div>
+                  <span style="font-size:0.625rem; font-family:var(--font-mono); opacity:0.6;">2026</span>
+                </div>
+              </div>
+            </div>
+            <div class="cd-interactive-hint">
+              <span>EXPLORE ALBUM</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details Slide-In Drawer & Backdrop -->
+    <div class="project-drawer-backdrop" id="project-drawer-backdrop" aria-hidden="true"></div>
+    <aside class="project-drawer" id="project-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-project-title">
+      <div class="drawer-header">
+        <span class="drawer-tag" id="drawer-tag-badge">PROJECT ARCHIVE</span>
+        <button class="drawer-close-btn" id="drawer-close-btn" aria-label="Close project details drawer">✕</button>
+      </div>
+
+      <div class="drawer-body" id="drawer-dynamic-content">
+        <!-- Dynamically injected via JS -->
+      </div>
+
+      <div class="drawer-footer" id="drawer-footer-actions">
+        <!-- Injected via JS -->
+      </div>
+    </aside>
+
+    <!-- =====================================================================
+         SELECTED CERTIFICATIONS
+         ===================================================================== -->
+    <section class="certifications-section" id="certifications" aria-labelledby="certifications-heading">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <div class="section-label">CONTINUOUS LEARNING</div>
+          <h2 class="section-title" id="certifications-heading">A FEW THINGS I’VE LEARNED.</h2>
+          <p class="section-subtitle">
+            “Curiosity got me started. Learning keeps me moving.”
+          </p>
+        </div>
+
+        <div class="certifications-grid scroll-reveal" data-delay="1">
+          <!-- Cert 1: Google AI — AI Fundamentals -->
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-provider">GOOGLE AI</span>
+              <span class="cert-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Completed
+              </span>
+            </div>
+            <h3 class="cert-title">AI Fundamentals</h3>
+            <div class="cert-action">
+              <a href="assets/certificates/Coursera SU0KJ7VL3KN9.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-view" aria-label="Open AI Fundamentals certificate PDF in a new tab">
+                VIEW CERTIFICATE ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 2: LinkedIn Learning — Complete Guide to SQL for Data Engineering: From Beginner to Advanced -->
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-provider">LINKEDIN LEARNING</span>
+              <span class="cert-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Completed
+              </span>
+            </div>
+            <h3 class="cert-title">Complete Guide to SQL for Data Engineering: From Beginner to Advanced</h3>
+            <div class="cert-action">
+              <a href="assets/certificates/CertificateOfCompletion_Complete Guide to SQL for Data Engineering from Beginner to Advanced.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-view" aria-label="Open Complete Guide to SQL for Data Engineering certificate PDF in a new tab">
+                VIEW CERTIFICATE ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 3: Meta — HTML and CSS in Depth -->
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-provider">META</span>
+              <span class="cert-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Completed
+              </span>
+            </div>
+            <h3 class="cert-title">HTML and CSS in Depth</h3>
+            <div class="cert-action">
+              <a href="assets/certificates/META certificate.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-view" aria-label="Open HTML and CSS in Depth certificate PDF in a new tab">
+                VIEW CERTIFICATE ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 4: IBM — Introduction to Software Engineering -->
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-provider">IBM</span>
+              <span class="cert-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Completed
+              </span>
+            </div>
+            <h3 class="cert-title">Introduction to Software Engineering</h3>
+            <div class="cert-action">
+              <a href="assets/certificates/Coursera A4OBXEIA3BUD(1).pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-view" aria-label="Open Introduction to Software Engineering certificate PDF in a new tab">
+                VIEW CERTIFICATE ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 5: IBM — Introduction to Cloud Computing -->
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-provider">IBM</span>
+              <span class="cert-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Completed
+              </span>
+            </div>
+            <h3 class="cert-title">Introduction to Cloud Computing</h3>
+            <div class="cert-action">
+              <a href="assets/certificates/Coursera 1J59HXO5HDOA(2).pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-view" aria-label="Open Introduction to Cloud Computing certificate PDF in a new tab">
+                VIEW CERTIFICATE ↗
+              </a>
+            </div>
+          </article>
+
+          <!-- Cert 6: University of Michigan — Problem Solving Using Computational Thinking -->
+          <article class="cert-card">
+            <div class="cert-top">
+              <span class="cert-provider">UNIVERSITY OF MICHIGAN</span>
+              <span class="cert-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Completed
+              </span>
+            </div>
+            <h3 class="cert-title">Problem Solving Using Computational Thinking</h3>
+            <div class="cert-action">
+              <a href="assets/certificates/Michigan certi.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert-view" aria-label="Open Problem Solving Using Computational Thinking certificate PDF in a new tab">
+                VIEW CERTIFICATE ↗
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         RESUME SECTION
+         ===================================================================== -->
+    <section class="resume-section" id="resume" aria-labelledby="resume-heading">
+      <div class="container">
+        <div class="resume-card scroll-reveal">
+          <div class="section-label" style="justify-content:center;">PROFESSIONAL DOSSIER</div>
+          <h2 class="section-title" id="resume-heading">A LITTLE MORE ABOUT WHAT I DO.</h2>
+          <p class="resume-supporting-text">
+            “Want a closer look at my background, skills, and projects? My resume brings everything together.”
+          </p>
+
+          <div class="resume-actions">
+            <button class="btn btn-primary" id="btn-view-resume">
+              VIEW RESUME ↗
+            </button>
+            <a href="/Vishnu_Mithran_B_Resume_No_Watermark.pdf" download="Vishnu_Mithran_B_Resume.pdf" class="btn btn-secondary">
+              DOWNLOAD PDF ↓
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CONTACT SECTION
+         ===================================================================== -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-text-column scroll-reveal">
+            <div class="section-label">GET IN TOUCH</div>
+            <h2 class="contact-headline" id="contact-heading">
+              LET’S MAKE SOMETHING MEANINGFUL.
+            </h2>
+            <p class="contact-supporting">
+              “I’m always interested in learning, building, and connecting with people who have exciting ideas. If you’d like to collaborate, talk about a project, or discuss an opportunity, let’s connect.”
+            </p>
+
+            <div class="contact-quote-motto">
+              “Still learning. Still building. Still becoming.”
+            </div>
+          </div>
+
+          <div class="contact-cards-list scroll-reveal" data-delay="1">
+            <!-- Email -->
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vishnumithranb@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-method-card" aria-label="Send email to vishnumithranb@gmail.com via Gmail">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">Email</span>
+                <span class="contact-method-value">vishnumithranb@gmail.com ↗</span>
+              </div>
+            </a>
+
+            <!-- Phone -->
+            <a href="tel:+919487408088" class="contact-method-card" aria-label="Call Vishnu Mithran at +91 9487408088">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">Phone</span>
+                <span class="contact-method-value">+91 9487408088</span>
+              </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/vishnu-mithran-b-6630b7374" target="_blank" rel="noopener noreferrer" class="contact-method-card" aria-label="Visit Vishnu Mithran's LinkedIn Profile">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">LinkedIn</span>
+                <span class="contact-method-value">linkedin.com/in/vishnu-mithran-b-6630b7374 ↗</span>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/vishnumithran-b" target="_blank" rel="noopener noreferrer" class="contact-method-card" aria-label="Visit Vishnu Mithran's GitHub Profile">
+              <div class="contact-icon-box" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div class="contact-method-info">
+                <span class="contact-method-label">GitHub</span>
+                <span class="contact-method-value">github.com/vishnumithran-b ↗</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-copy">
+        © <span id="current-year">2026</span> Vishnu Mithran B. Built with care and curiosity.
+      </div>
+      <ul class="footer-social-links">
+        <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=vishnumithranb@gmail.com" target="_blank" rel="noopener noreferrer" class="footer-social-link">Email ↗</a></li>
+        <li><a href="https://github.com/vishnumithran-b" target="_blank" rel="noopener noreferrer" class="footer-social-link">GitHub ↗</a></li>
+        <li><a href="https://www.linkedin.com/in/vishnu-mithran-b-6630b7374" target="_blank" rel="noopener noreferrer" class="footer-social-link">LinkedIn ↗</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       ACCESSIBLE MODAL VIEWERS (HTML5 <dialog>)
+       ===================================================================== -->
+  <!-- Resume Modal -->
+  <dialog id="resume-modal" class="native-modal" aria-labelledby="resume-modal-title" data-lenis-prevent>
+    <div class="modal-content-wrapper" data-lenis-prevent>
+      <div class="modal-header">
+        <h3 class="modal-title" id="resume-modal-title">Vishnu Mithran B — Resume</h3>
+        <button class="modal-close-btn" id="close-resume-modal" aria-label="Close resume viewer">✕</button>
+      </div>
+      <div class="modal-body" data-lenis-prevent>
+        <iframe src="assets/Vishnumithran_B_Resume.pdf" class="modal-iframe" title="Vishnu Mithran B Resume Document"></iframe>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Certificate Viewer Modal -->
+  <dialog id="cert-modal" class="native-modal" aria-labelledby="cert-modal-title" data-lenis-prevent>
+    <div class="modal-content-wrapper" data-lenis-prevent>
+      <div class="modal-header">
+        <h3 class="modal-title" id="cert-modal-title">Certificate</h3>
+        <button class="modal-close-btn" id="close-cert-modal" aria-label="Close certificate viewer">✕</button>
+      </div>
+      <div class="modal-body" data-lenis-prevent>
+        <iframe id="cert-iframe" src="" class="modal-iframe" title="Certificate Document"></iframe>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Smooth Scrolling & Core JavaScript -->
+  <script src="js/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
